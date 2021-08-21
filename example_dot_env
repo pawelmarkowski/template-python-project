@@ -1,0 +1,3 @@
+export PYPROJECT_NAME=$(grep -oP "name = \"\\K[\\w-]+" pyproject.toml)
+export PYPROJECT_NAME_UNDERSCORE=${PYPROJECT_NAME//-/_}
+export PYTHONPATH=${PWD}/${PYPROJECT_NAME_UNDERSCORE}
