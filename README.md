@@ -25,6 +25,8 @@ You can easily run specific environment with option `-e`
 tox -e py39-lint
 ```
 
+`tox -a` will list the available test configurations
+
 
 ## Manifest.in
 
