@@ -5,7 +5,8 @@
 Change *pyproject.toml* content before you start. 
 
 ```bash
-python3.8 -m venv .venv
+python3.9 -m venv .venv
+pip install --upgrade pip
 source .venv/bin/activate
 mv example_dot_env .env
 source .env
